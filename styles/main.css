@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-flow: column;
+    font-family: sans-serif;
+    background-color: #0c0075;
+    color: white;
+    margin: 0;
+}
+
+/* header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+} */
+
+ul {
+    list-style-type: none;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+section.model {
+    width: 100vw;
+    height: 100vh;
+    /* backup background color */
+    background-color: #0c0075;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+section.model#model-3 {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png");
+}
+
+section.model#model-y {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png");
+}
+
+section.model#model-x {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png");
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.nav-links {
+    width: 40%;
+    font-weight: 600;
+}
+
+article.nav-icons, article.logo {
+    width: 20%;
+}
+
+article.nav-icons>ul {
+    justify-content: flex-end;
+}
+
+article.nav-icons>ul>li {
+    padding: 2%
+}
+
+article.model-details {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    line-height: 0.1em;
+    padding-bottom: 20%;
+}
+
+article.model-details a {
+    text-decoration: underline;
+}
+
+p.price {
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+article.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+p.order-button {
+    width: 20vw;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+}
+
+p.demo-button {
+    width: 20vw;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+p.demo-button>a {
+    color: #000;
+}
+
+p.finance-link {
+    line-height: 1em;
+    text-align: center;
+}
+
+p.finance-link>a::after {
+    content: "\a";
+    white-space: pre;
+}
+
+p.finance-link>a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 12%;
+}
+
+i.fa-regular {
+    fill: white;
+    color: white;
+}
+
+a svg {
+    width: 10vw;
+    fill: white;
+}
