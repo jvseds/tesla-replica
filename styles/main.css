@@ -128,3 +128,13 @@ p.finance-link>a:hover {
     text-decoration: underline;
     text-decoration-thickness: 12%;
 }
+
+i.fa-regular {
+    fill: white;
+    color: white;
+}
+
+a svg {
+    width: 10vw;
+    fill: white;
+}
