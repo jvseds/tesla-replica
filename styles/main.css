@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-flow: column;
+    font-family: sans-serif;
+    background-color: #0c0075;
+    color: white;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+section.model {
+    width: 100vw;
+    height: 100vh;
+    /* backup background color */
+    background-color: #0c0075;
+    background-size: cover;
+    display: flex;
+}
+
+section.model#model-3 {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png");
+}
+
+section.model#model-y {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png");
+}
+
+section.model#model-x {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png");
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.nav-links {
+    width: 40%;
+    font-weight: 600;
+}
+
+article.nav-icons, article.logo {
+    width: 20%;
+}
