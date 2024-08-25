@@ -67,6 +67,14 @@ article.nav-icons, article.logo {
     width: 20%;
 }
 
+article.nav-icons>ul {
+    justify-content: flex-end;
+}
+
+article.nav-icons>ul>li {
+    padding: 2%
+}
+
 article.model-details {
     display: flex;
     flex-flow: column wrap;
